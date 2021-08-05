@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap');
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+/*이미지 확대처리*/
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.zoom:hover {
+    transform: scale(1.7);
+}
+/**/
+
+html {
+    scrollbar-width:none;
+}
+
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 0;
+    user-select: none;
+    background: #EEEDEB;
+    overflow: auto;
+}
+
+#main {
+    height: 100vh;
+    /*스크롤 적용*/
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    /**/
+}
+
+#start {
+    background: #292b2f;
+    color: white;
+}
+
+#skills{
+    background: #292b2f;
+    color: white;
+}
+
+#award{
+    background: #292b2f;
+    color: white;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*스크롤 적용*/
+    scroll-snap-align: center;
+    /**/
+}
+
+.page_pro {
+    min-height: 270vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*스크롤 적용*/
+    scroll-snap-align: start;
+    /**/
+}
+
+.main_title {
+    font-size: 11rem;
+}
+
+.title {
+    font-size: 6rem;
+}
+
+.sub {
+    font-size: 2.5rem;
+}
+
+.sub2 {
+    font-size: 2.3rem;
+}
+
+.svg {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.jumbotron.type0{
+    color: white;
+    background:linear-gradient(150deg, #255bc6, #963737 );
+}
+
+.jumbotron.type1{
+    color: white;
+    background: #008000;
+}
+
+/*프로젝트 카드처리*/
+
+.card {
+    width: 48%;
+    box-sizing: border-box;
+    padding: 2em;
+    border-radius: 10px;
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .card {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2em;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .card.r {
+        margin-top: 50px;
+        float: right;
+        background: linear-gradient( to bottom, #f6ab3e, #8037f6 100%);
+    }
+
+    .social-panel-container.visible {
+        transform: translateX(0px);
+    }
+
+    .floating-btn {
+        right: 10px;
+    }
+}
+.card.l {
+    float: left;
+    background:linear-gradient(150deg, #255bc6, #963737 );
+}
+
+.card.r {
+    float: right;
+    background: #008000;
+}
+
+/**/
