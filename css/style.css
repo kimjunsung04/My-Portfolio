@@ -3,13 +3,13 @@
 img {
     max-width:100%;
     height:auto;
+    border-radius: 5px;
 }
 
 /*이미지 확대처리*/
 .zoom {
     transition: transform .2s;
     margin: 0 auto;
-    border-radius: 5px;
 }
 
 .zoom:hover {
@@ -115,7 +115,39 @@ body {
     border-radius: 10px;
     color: white;
 }
+
+/*반응형 처리*/
 @media screen and (max-width: 800px) {
+    .center_con {
+        margin: 5%;
+    }
+
+    #badge img {
+        height: 20px;
+        width:auto;
+    }
+
+    #skills img {
+        height: 20px;
+        width:auto;
+    }
+
+    .main_title {
+        font-size: 7rem;
+    }
+    
+    .title {
+        font-size: 4rem;
+    }
+    
+    .sub {
+        font-size: 2rem;
+    }
+    
+    .sub2 {
+        font-size: 1.3rem;
+    }
+
     .card {
         width: 100%;
         box-sizing: border-box;
@@ -137,7 +169,13 @@ body {
     .floating-btn {
         right: 10px;
     }
+    
+    .zoom:hover {
+        transform: scale(1.3);
+    }
 }
+/**/
+
 .card.l {
     float: left;
     background:linear-gradient(150deg, #255bc6, #963737 );
