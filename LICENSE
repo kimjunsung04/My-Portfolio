@@ -1,1577 +1,674 @@
-<font class="papago-parent"><font class="papago-source" style="display:none;">                    GNU GENERAL PUBLIC LICENSE
-</font>                    GNU 일반 공중 사용권
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">                       Version 3, 29 June 2007
-</font>                       버전 3 2007년 6월 29일
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;"> Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
-</font> 저작권 (C) 2007 Free Software Foundation, Inc. https://fsf.org/
-</font><font class="papago-parent"><font class="papago-source" style="display:none;"> Everyone is permitted to copy and distribute verbatim copies
-</font> 모든 사람이 말 그대로의 복사본을 복사하고 배포할 수 있음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;"> of this license document, but changing it is not allowed.</font> 이 라이센스 문서의 변경은 허용되지 않는다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">                            Preamble
-</font>                            서문
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The GNU General Public License is a free, copyleft license for
-</font>  GNU General Public License는 에 대한 무료 복사형 License이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">software and other kinds of works.</font>소프트웨어와 다른 종류의 작품들.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The licenses for most software and other practical works are designed
-</font>  대부분의 소프트웨어 및 기타 실제 작업에 대한 라이센스는 설계되어 있음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">to take away your freedom to share and change the works.</font>작품을 공유하고 바꿀 자유를 빼앗는 것.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  By contrast,
-</font>  대조적으로,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the GNU General Public License is intended to guarantee your freedom to
-</font>GNU General Public License는 당신의 자유를 보장하기 위한 것이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">share and change all versions of a program--to make sure it remains free
-</font>프로그램의 모든 버전을 공유 및 변경하여 프로그램 사용 가능 여부 확인
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">software for all its users.</font>모든 사용자를 위한 소프트웨어.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  We, the Free Software Foundation, use the
-</font>  우리 자유 소프트웨어 재단은
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">GNU General Public License for most of our software; it applies also to
-</font>대부분의 소프트웨어에 대한 GNU General Public License(GNU 일반 공중 라이센스)에 적용됨.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">any other work released this way by its authors.</font>작가들에 의해 이렇게 공개된 다른 작품들</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You can apply it to
-</font>  에 적용할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">your programs, too.
-</font>당신의 프로그램도.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  When we speak of free software, we are referring to freedom, not
-</font>  우리가 자유 소프트웨어를 말할 때 우리는 자유에 대해 말하는 것이지, 자유에 대해 말하는 것은 아니다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">price.  Our General Public Licenses are designed to make sure that you
-</font>우리의 일반공인면허는 당신을 확실히 하기 위해 고안된 것이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">have the freedom to distribute copies of free software (and charge for
-</font>무료 소프트웨어 사본을 배포할 자유가 있다(및 비용 청구).
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">them if you wish), that you receive source code or can get it if you
-</font>원하는 경우) 소스 코드를 수신하거나, 원하는 경우 받을 수 있음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">want it, that you can change the software or use pieces of it in new
-</font>소프트웨어를 변경하거나 새로운 소프트웨어를 사용할 수 있는 것을 원한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">free programs, and that you know you can do these things.</font>무료 프로그램, 그리고 당신이 이러한 것들을 할 수 있다는 것을 알고 있다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  To protect your rights, we need to prevent others from denying you
-</font>  당신의 권리를 보호하기 위해, 우리는 다른 사람들이 당신을 부인하는 것을 막아야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">these rights or asking you to surrender the rights.</font>이 권리들을 포기하라고 요구하거나</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Therefore, you have
-</font>  그러므로, 당신은 가지고 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">certain responsibilities if you distribute copies of the software, or if
-</font>소프트웨어 복사본을 배포하거나 배포하는 경우 특정 책임
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">you modify it: responsibilities to respect the freedom of others.</font>당신은 그것을 수정한다: 다른 사람의 자유를 존중하는 책임.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  For example, if you distribute copies of such a program, whether
-</font>  예를 들어, 그러한 프로그램의 사본을 배포하는 경우,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">gratis or for a fee, you must pass on to the recipients the same
-</font>무료 또는 유료로 받는 사람에게 똑같이 전가해야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">freedoms that you received.</font>당신이 받은 자유.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You must make sure that they, too, receive
-</font>  그들 역시 받는다는 것을 확실히 해야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">or can get the source code.</font>또는 소스 코드를 가져올 수 있다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  And you must show them these terms so they
-</font>  그리고 당신은 그들에게 이 조건들을 보여줘야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">know their rights.</font>그들의 권리를 알다</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Developers that use the GNU GPL protect your rights with two steps:</font>  GNU GPL을 사용하는 개발자는 다음 두 단계로 사용자의 권리를 보호하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">(1) assert copyright on the software, and (2) offer you this License
-</font>(1) 소프트웨어에 대한 저작권을 주장하고 (2) 본 라이센스를 귀하에게 제공
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">giving you legal permission to copy, distribute and/or modify it.
-</font>복사, 배포 및/또는 수정 권한을 부여한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  For the developers' and authors' protection, the GPL clearly explains
-</font>  개발자와 작성자의 보호를 위해 GPL은 명확하게 설명한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">that there is no warranty for this free software.</font>이 무료 소프트웨어에 대한 보증이 없다는 점을 강조하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  For both users' and
-</font>  사용자 및 사용자 모두에 대해
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">authors' sake, the GPL requires that modified versions be marked as
-</font>작가들의 사케, GPL은 수정된 버전은
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">changed, so that their problems will not be attributed erroneously to
-</font>그들의 문제가 잘못으로 귀속되지 않도록 바꾸었다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">authors of previous versions.</font>이전 버전의 작가들</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Some devices are designed to deny users access to install or run
-</font>  일부 장치는 설치 또는 실행에 대한 사용자 액세스를 거부하도록 설계됨
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">modified versions of the software inside them, although the manufacturer
-</font>비록 제조업체가 그 안에 있는 소프트웨어의 수정된 버전
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">can do so.</font>그렇게 할 수 있다</font><font class="papago-parent"><font class="papago-source" style="display:none;">  This is fundamentally incompatible with the aim of
-</font>  이것은 근본적으로 의 목적과 양립할 수 없다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">protecting users' freedom to change the software.</font>사용자의 소프트웨어 변경 자유 보호.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The systematic
-</font>  체계적
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">pattern of such abuse occurs in the area of products for individuals to
-</font>그러한 남용 패턴은 개인이 하기 위한 제품 영역에서 발생한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">use, which is precisely where it is most unacceptable.</font>가장 받아들일 수 없는 부분이 바로 사용이다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Therefore, we
-</font>  그러므로 우리는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">have designed this version of the GPL to prohibit the practice for those
-</font>이 버전의 GPL은 이들에 대한 관행을 금지하도록 설계되어 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">products.</font>상품들</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If such problems arise substantially in other domains, we
-</font>  만약 그러한 문제들이 다른 도메인에서 실질적으로 발생한다면, 우리는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">stand ready to extend this provision to those domains in future versions
-</font>이 조항을 향후 버전의 해당 도메인으로 확장할 준비가 되어 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">of the GPL, as needed to protect the freedom of users.</font>사용자의 자유를 보호하기 위해 필요한 경우, GPL의.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Finally, every program is threatened constantly by software patents.</font>  마지막으로, 모든 프로그램은 소프트웨어 특허에 의해 끊임없이 위협을 받는다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">States should not allow patents to restrict development and use of
-</font>주정부는 특허가 개발 및 사용을 제한하도록 허용해서는 안 된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">software on general-purpose computers, but in those that do, we wish to
-</font>범용 컴퓨터의 소프트웨어, 하지만 그런 컴퓨터에서는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">avoid the special danger that patents applied to a free program could
-</font>무료 프로그램에 특허가 적용될 수 있는 특별한 위험을 피하다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">make it effectively proprietary.</font>그것을 사실상 소유로 하다</font><font class="papago-parent"><font class="papago-source" style="display:none;">  To prevent this, the GPL assures that
-</font>  이를 방지하기 위해 GPL은 다음을 보장한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">patents cannot be used to render the program non-free.</font>특허를 사용하여 프로그램을 무상으로 만들 수 없다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The precise terms and conditions for copying, distribution and
-</font>  복사, 배포 및 배포에 대한 정확한 약관
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">modification follow.</font>수정이 뒤따르다</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">                       TERMS AND CONDITIONS
-</font>                       조건
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  0. Definitions.</font>  0. 정의.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  "This License" refers to version 3 of the GNU General Public License.</font>  "본 라이선스"는 GNU General Public License의 버전 3을 가리킨다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  "Copyright" also means copyright-like laws that apply to other kinds of
-</font>  '저작권'은 다른 종류의 법률에도 적용되는 저작권 같은 법률을 의미하기도 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">works, such as semiconductor masks.</font>반도체 마스크와 같은 작품들</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  "The Program" refers to any copyrightable work licensed under this
-</font>  "The Program(프로그램)"은 이에 따라 저작권이 부여된 모든 저작권을 가진 작품을 가리킨다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">License.</font>면허증</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Each licensee is addressed as "you".</font>  각 면허소지자는 "당신"으로 취급된다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  "Licensees" and
-</font>  "라이센스" 및
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">"recipients" may be individuals or organizations.</font>"직업"은 개인 또는 단체일 수 있다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  To "modify" a work means to copy from or adapt all or part of the work
-</font>  작업을 "수정"한다는 것은 작업의 전부 또는 일부를 복사하거나 수정하는 것을 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">in a fashion requiring copyright permission, other than the making of an
-</font>저작권의 허가를 요하는 방식으로, 을 만드는 것 외에.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">exact copy.</font>정확한 사본</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The resulting work is called a "modified version" of the
-</font>  결과물을 「수정본」이라고 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">earlier work or a work "based on" the earlier work.</font>초기의 작품이나 「초기의 작품」에 근거한 작품</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A "covered work" means either the unmodified Program or a work based
-</font>  "보호된 작품"은 수정되지 않은 프로그램 또는 기반의 작품을 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">on the Program.</font>프로에 올라와서</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  To "propagate" a work means to do anything with it that, without
-</font>  작품을 「제안한다」는 것은, 그것을 가지고 어떤 일을 하는 것을 의미하지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">permission, would make you directly or secondarily liable for
-</font>에 대해 직접 또는 제2의 책임을 지도록 하는 허가
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">infringement under applicable copyright law, except executing it on a
-</font>적용 가능한 저작권법에 의한 침해, 단, 에 의거하여 집행하는 것을 제외한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">computer or modifying a private copy.</font>컴퓨터나 개인사본을 수정한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Propagation includes copying,
-</font>  전파에는 복사가 포함된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">distribution (with or without modification), making available to the
-</font>배포(수정 여부 또는 미사용),
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">public, and in some countries other activities as well.</font>공공 및 일부 국가에서는 다른 활동도 한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  To "convey" a work means any kind of propagation that enables other
-</font>  작품을 "컨베어링"한다는 것은 다른 것을 가능하게 하는 모든 종류의 전파를 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">parties to make or receive copies.</font>사본을 만들거나 받을 당사자들</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Mere interaction with a user through
-</font>  사용자와의 상호 작용만으로
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">a computer network, with no transfer of a copy, is not conveying.</font>복사본이 전송되지 않은 컴퓨터 네트워크는 전달되지 않는다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  An interactive user interface displays "Appropriate Legal Notices"
-</font>  대화형 사용자 인터페이스에 "적절한 법적 고지 사항"이 표시됨
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">to the extent that it includes a convenient and prominently visible
-</font>편리하고 눈에 잘 띄는 것을 포함하는 범위까지.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">feature that (1) displays an appropriate copyright notice, and (2)
-</font>(1) 적절한 저작권 고지를 표시하는 기능 및 (2)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">tells the user that there is no warranty for the work (except to the
-</font>사용자에게 작업에 대한 보증이 없음을 알린다(예:
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">extent that warranties are provided), that licensees may convey the
-</font>보증서가 제공되는 범위), 면허소지자가 다음을 전달할 수 있는 범위
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">work under this License, and how to view a copy of this License.</font>이 라이센스에 따라 작업하고 이 라이센스의 복사본을 보는 방법.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If
-</font>  만약
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the interface presents a list of user commands or options, such as a
-</font>인터페이스는 다음과 같은 사용자 명령 또는 옵션 목록을 제공한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">menu, a prominent item in the list meets this criterion.</font>메뉴, 리스트에서 눈에 띄는 항목은 이 기준을 충족한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  1. Source Code.</font>  1. 소스 코드.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The "source code" for a work means the preferred form of the work
-</font>  작품의 "출처 코드"는 작품의 선호 형태를 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">for making modifications to it.</font>그것을 수정하기 위해서.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  "Object code" means any non-source
-</font>  "객체 코드"는 비원본을 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">form of a work.</font>작품의 형식</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A "Standard Interface" means an interface that either is an official
-</font>  "표준 인터페이스"는 공식 인터페이스 중 하나를 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">standard defined by a recognized standards body, or, in the case of
-</font>인정된 표준 기구가 정의한 표준 또는 다음의 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">interfaces specified for a particular programming language, one that
-</font>특정 프로그래밍 언어에 대해 지정된 인터페이스, 다음 중 하나
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">is widely used among developers working in that language.</font>그 언어로 일하는 개발자들 사이에서 널리 사용된다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The "System Libraries" of an executable work include anything, other
-</font>  실행 가능한 작업의 "시스템 라이브러리"에는 모든 항목이 포함되며, 기타
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">than the work as a whole, that (a) is included in the normal form of
-</font>그 (a)가 일반적인 형태에 포함되는 것, 전체로서 작업보다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">packaging a Major Component, but which is not part of that Major
-</font>주요 구성 요소 포장, 그러나 해당 주요 구성 요소의 일부가 아님
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Component, and (b) serves only to enable use of the work with that
-</font>구성 요소 및 (b)는 해당 구성 요소와 함께 작업 사용 가능
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Major Component, or to implement a Standard Interface for which an
-</font>주요 구성요소 또는 표준 인터페이스를 구현하기 위해
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">implementation is available to the public in source code form.</font>구현은 소스 코드 형태로 대중이 이용할 수 있다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A
-</font>  a
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">"Major Component", in this context, means a major essential component
-</font>이러한 맥락에서 "주요 구성요소"는 주요 필수 구성요소를 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">(kernel, window system, and so on) of the specific operating system
-</font>특정 운영 체제의 (커널, 창 시스템 등)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">(if any) on which the executable work runs, or a compiler used to
-</font>(있는 경우) 실행 가능한 작업이 실행되거나 컴파일러가 에 사용된 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">produce the work, or an object code interpreter used to run it.</font>작품을 제작하거나, 그것을 실행하는 데 사용된 객체 코드 통역기를 제작한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The "Corresponding Source" for a work in object code form means all
-</font>  객체 코드 형식의 작품에 대한 "대응 소스"는 모든 것을 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the source code needed to generate, install, and (for an executable
-</font>생성, 설치 및 (실행 파일의 경우)에 필요한 소스 코드
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">work) run the object code and to modify the work, including scripts to
-</font>work) 객체 코드 실행 및 스크립트 포함 작업 수정
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">control those activities.</font>그 활동을 통제하다</font><font class="papago-parent"><font class="papago-source" style="display:none;">  However, it does not include the work's
-</font>  다만 작품 내용은 포함되지 않았다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">System Libraries, or general-purpose tools or generally available free
-</font>시스템 라이브러리 또는 범용 도구 또는 일반적으로 무료로 사용 가능
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">programs which are used unmodified in performing those activities but
-</font>이러한 활동을 수행하는 데 수정되지 않은 프로그램.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">which are not part of the work.</font>그건 그 일의 일부분이 아니에요</font><font class="papago-parent"><font class="papago-source" style="display:none;">  For example, Corresponding Source
-</font>  예: 해당 소스
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">includes interface definition files associated with source files for
-</font>원본 파일과 관련된 인터페이스 정의 파일 포함
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the work, and the source code for shared libraries and dynamically
-</font>작업, 공유 라이브러리의 소스 코드 및 동적
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">linked subprograms that the work is specifically designed to require,
-</font>작업이 요구하도록 특별히 설계된 연결된 하위 프로그램,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">such as by intimate data communication or control flow between those
-</font>예를 들어, 긴밀한 데이터 통신 또는 이들 사이의 제어 흐름
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">subprograms and other parts of the work.</font>하위 프로그램 및 기타 작업 부분</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The Corresponding Source need not include anything that users
-</font>  해당 소스에 사용자가 포함할 필요가 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">can regenerate automatically from other parts of the Corresponding
-</font>해당 항목의 다른 부분으로부터 자동으로 재생성할 수 있음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Source.
-</font>출처
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The Corresponding Source for a work in source code form is that
-</font>  소스 코드 형식의 작업에 해당하는 출처는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">same work.</font>같은 일</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  2. Basic Permissions.</font>  2. 기본 권한.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  All rights granted under this License are granted for the term of
-</font>  본 라이센스에 따라 부여된 모든 권리는 다음 기간 동안 부여된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">copyright on the Program, and are irrevocable provided the stated
-</font>본 프로그램에 대한 저작권 및 명시된 경우 취소할 수 없다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">conditions are met.</font>조건이 충족되다</font><font class="papago-parent"><font class="papago-source" style="display:none;">  This License explicitly affirms your unlimited
-</font>  본 라이센스는 귀사의 무제한을 명시적으로 준수
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">permission to run the unmodified Program.</font>수정되지 않은 프로그램 실행 권한.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The output from running a
-</font>  실행에서 출력된 a
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">covered work is covered by this License only if the output, given its
-</font>적용 대상 작업은 출력이 주어진 경우에만 이 라이센스가 적용된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">content, constitutes a covered work.</font>내용, 덮개가 있는 저작물.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  This License acknowledges your
-</font>  본 라이센스는 귀하에게
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">rights of fair use or other equivalent, as provided by copyright law.</font>저작권법에 규정된 공정한 사용권 또는 기타 동등한 권리.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may make, run and propagate covered works that you do not
-</font>  당신은 당신이 하지 않은 커버드 작품을 만들고, 실행하고, 전파할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">convey, without conditions so long as your license otherwise remains
-</font>면허증이 남아 있는 한 조건 없이 전달하다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">in force.</font>효력이 있는</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may convey covered works to others for the sole purpose
-</font>  단독 목적으로 다른 사람에게 커버된 작품을 전달할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">of having them make modifications exclusively for you, or provide you
-</font>귀하만을 위해 수정하거나 귀하에게 제공하도록 하는 것
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">with facilities for running those works, provided that you comply with
-</font>귀하가 준수하는 경우, 해당 작업을 실행할 수 있는 시설과 함께
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the terms of this License in conveying all material for which you do
-</font>귀하가 수행하는 모든 자료를 전달하는 데 있어서 본 라이센스의 조항
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">not control copyright.</font>저작권을 통제하지 않는다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Those thus making or running the covered works
-</font>  이와 같이 커버된 작업을 제작하거나 운영하는 자
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">for you must do so exclusively on your behalf, under your direction
-</font>그대들은 오로지 그대들을 대신하여, 그대들의 지휘 아래 그렇게 해야만 하기 때문이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">and control, on terms that prohibit them from making any copies of
-</font>그리고 통제할 수 있다, 그들이 어떤 복제품도 만들 수 없도록 하는 조건들
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">your copyrighted material outside their relationship with you.
-</font>귀하와의 관계 이외의 저작권이 있는 자료
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Conveying under any other circumstances is permitted solely under
-</font>  다른 상황에서 전달은 전적으로 아래에서만 허용된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the conditions stated below.</font>아래에 기술된 조건</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Sublicensing is not allowed; section 10
-</font>  서브라이센싱이 허용되지 않음; 섹션 10
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">makes it unnecessary.</font>불필요하게 만들었어</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  3. Protecting Users' Legal Rights From Anti-Circumvention Law.</font>  3. 침해방지법으로부터 사용자의 법적 권리 보호.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  No covered work shall be deemed part of an effective technological
-</font>  커버된 작업은 효과적인 기술의 일부로 간주되지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">measure under any applicable law fulfilling obligations under article
-</font>조항에 따른 해당 법률 이행 의무에 따라 조치하다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">11 of the WIPO copyright treaty adopted on 20 December 1996, or
-</font>1996년 12월 20일에 채택된 WIPO 저작권 조약 중 11개 또는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">similar laws prohibiting or restricting circumvention of such
-</font>이와 유사한 법률의 회피를 금지하거나 제한하는 것.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">measures.</font>방안</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  When you convey a covered work, you waive any legal power to forbid
-</font>  덮개를 씌운 작품을 전할 때, 당신은 금지할 어떠한 법적 권한도 포기한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">circumvention of technological measures to the extent such circumvention
-</font>그러한 우회까지 기술상의 조치의 우회.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">is effected by exercising rights under this License with respect to
-</font>에 관하여 본 라이센스에 따른 권리를 행사함으로써 영향을 받는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the covered work, and you disclaim any intention to limit operation or
-</font>커버된 작업, 그리고 당신은 운영을 제한하려는 어떠한 의도도 부인한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">modification of the work as a means of enforcing, against the work's
-</font>업무 수행의 수단으로서, 업무 수행에 반하는 업무의 수정.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">users, your or third parties' legal rights to forbid circumvention of
-</font>사용자, 귀하 또는 제3자의 우회 금지 법적 권리
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">technological measures.</font>기술적 조치</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  4. Conveying Verbatim Copies.</font>  4. 베르바심 사본 전달.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may convey verbatim copies of the Program's source code as you
-</font>  당신은 프로그램의 소스 코드의 말 그대로 사본을 전달할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">receive it, in any medium, provided that you conspicuously and
-</font>당신이 눈에 띄게 그리고 어떤 매체에서든 그것을 받다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">appropriately publish on each copy an appropriate copyright notice;
-</font>적절한 저작권 고지서를 각 사본에 적절히 발행한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">keep intact all notices stating that this License and any
-</font>본 라이선스 및 기타 모든 통지를 그대로 유지한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">non-permissive terms added in accord with section 7 apply to the code;
-</font>제7절에 따라 추가된 비파생성 용어는 코드에 적용된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">keep intact all notices of the absence of any warranty; and give all
-</font>보증서가 없는 모든 통지를 온전하게 보관하고, 모든 통지를 제공함.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">recipients a copy of this License along with the Program.</font>프로그램과 함께 이 라이센스의 사본을 수신하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may charge any price or no price for each copy that you convey,
-</font>  당신이 전달하는 각 사본에 대해 어떠한 가격이나 어떠한 가격도 부과할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">and you may offer support or warranty protection for a fee.</font>유료로 지원 또는 보증 보호를 제공할 수 있다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  5. Conveying Modified Source Versions.</font>  5. 수정된 소스 버전 전달.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may convey a work based on the Program, or the modifications to
-</font>  당신은 프로그램 또는 수정사항을 바탕으로 한 작품을 전달할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">produce it from the Program, in the form of source code under the
-</font>프로그램으로부터, 아래 소스 코드의 형태로, 그것을 생산한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">terms of section 4, provided that you also meet all of these conditions:</font>다음 조건을 모두 충족하는 경우 섹션 4의 조항:</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    a) The work must carry prominent notices stating that you modified
-</font>    a) 해당 작업에는 수정한 내용을 기재한 눈에 띄는 통지가 있어야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    it, and giving a relevant date.</font>    그리고 관련 날짜를 알려주길 바란다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    b) The work must carry prominent notices stating that it is
-</font>    b) 작업에는 반드시 다음과 같이 명시되어 있는 현저한 고지를 운반하여야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    released under this License and any conditions added under section
-</font>    본 라이센스 및 섹션에 추가된 모든 조건에 따라 릴리스됨
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    7.  This requirement modifies the requirement in section 4 to
-</font>    7. 본 요구사항은 섹션 4 ~ 섹션의 요구사항을 수정한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    "keep intact all notices".</font>    "모든 통지는 온전하게 유지"</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    c) You must license the entire work, as a whole, under this
-</font>    c) 본 계약에 따라 전체 작업에 대한 라이센스를 부여해야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    License to anyone who comes into possession of a copy.</font>    사본을 소유하게 되는 모든 사람에게 면허증을 주십시요.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  This
-</font>  이것
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    License will therefore apply, along with any applicable section 7
-</font>    따라서 해당 섹션 7과 함께 라이센스가 적용된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    additional terms, to the whole of the work, and all its parts,
-</font>    전체 작업과 그 모든 부분에 대한 추가 조건
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    regardless of how they are packaged.</font>    포장 여부와 상관없이.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  This License gives no
-</font>  이 라이센스는 no를 제공하지 않음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    permission to license the work in any other way, but it does not
-</font>    다른 방법으로도 그 일을 허가할 수 있도록 허가했지만, 그것은 허락하지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    invalidate such permission if you have separately received it.</font>    별도로 받은 경우에는 그러한 허가를 무효로 한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    d) If the work has interactive user interfaces, each must display
-</font>    d) 작업물에 대화형 사용자 인터페이스가 있는 경우 각각 표시되어야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Appropriate Legal Notices; however, if the Program has interactive
-</font>    적절한 법적 고지 사항, 그러나 프로그램에 대화형 기능이 있는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    interfaces that do not display Appropriate Legal Notices, your
-</font>    적절한 법적 고지 사항이 표시되지 않는 인터페이스,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    work need not make them do so.</font>    일은 그들이 그렇게 하도록 만들 필요가 없다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A compilation of a covered work with other separate and independent
-</font>  다른 독립된 독립된 독립된 저작물을 포함한 커버된 저작물
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">works, which are not by their nature extensions of the covered work,
-</font>피복된 작품의 본질적인 확장이 아닌 작품들,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">and which are not combined with it such as to form a larger program,
-</font>더 큰 프로그램을 만드는 것과 같이 그것과 결합되지 않는 것,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">in or on a volume of a storage or distribution medium, is called an
-</font>저장 매체 또는 배포 매체의 볼륨 내 또는 볼륨에 있는 것을 a"라고 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">"aggregate" if the compilation and its resulting copyright are not
-</font>컴파일 및 그에 따른 저작권이 없는 경우 "필수"
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">used to limit the access or legal rights of the compilation's users
-</font>컴파일 사용자의 접근 또는 법적 권리를 제한하는 데 사용됨
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">beyond what the individual works permit.</font>개별 작업에서 허용하는 범위를 넘어서는</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Inclusion of a covered work
-</font>  커버링된 작품 포함
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">in an aggregate does not cause this License to apply to the other
-</font>집계 결과 이 라이선스가 다른 라이선스에 적용되지 않음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">parts of the aggregate.</font>골재의 일부</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  6. Conveying Non-Source Forms.</font>  6. 비출처 양식 전달.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may convey a covered work in object code form under the terms
-</font>  약관에 의거하여 객체 코드 형태로 커버된 작품을 전달할 수 있음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">of sections 4 and 5, provided that you also convey the
-</font>섹션 4와 5의 섹션 중, 단, 다음과 같은 내용을 전달하면
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">machine-readable Corresponding Source under the terms of this License,
-</font>본 라이센스의 조건에 따라 시스템에서 읽을 수 있는 해당 소스,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">in one of these ways:</font>다음 방법 중 하나로:</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    a) Convey the object code in, or embodied in, a physical product
-</font>    a) 물리적 제품에 객체 코드를 전달하거나 구현
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    (including a physical distribution medium), accompanied by the
-</font>    (물리적 분배 매체 포함), 다음을 동반한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Corresponding Source fixed on a durable physical medium
-</font>    내구성이 뛰어난 물리적 매체에 고정된 해당 소스
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    customarily used for software interchange.</font>    소프트웨어 교환에 관례적으로 사용된다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    b) Convey the object code in, or embodied in, a physical product
-</font>    b) 물리적 제품에 객체 코드를 전달하거나, 실제 제품에 전달
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    (including a physical distribution medium), accompanied by a
-</font>    (물리적 분배 매체 포함), 다음을 동반한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    written offer, valid for at least three years and valid for as
-</font>    서면 제안, 최소 3년 동안 유효하며 다음과 같이 유효하다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    long as you offer spare parts or customer support for that product
-</font>    그 제품에 대한 예비 부품이나 고객 지원을 제공하기만 하면
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    model, to give anyone who possesses the object code either (1) a
-</font>    모델, 객체 코드를 소유하는 모든 사람에게 (1) a를 부여한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    copy of the Corresponding Source for all the software in the
-</font>    의 모든 소프트웨어에 대한 해당 원본의 복사본
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    product that is covered by this License, on a durable physical
-</font>    이 라이센스가 적용되는 내구성 있는 물리적 제품
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    medium customarily used for software interchange, for a price no
-</font>    소프트웨어 교환을 위해 일반적으로 사용되는 중간 가격의 no.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    more than your reasonable cost of physically performing this
-</font>    물리적으로 이것을 수행하는 데 드는 합리적인 비용보다 더 많은
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    conveying of source, or (2) access to copy the
-</font>    소스 전달 또는 (2) 복사하기 위한 액세스 권한
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Corresponding Source from a network server at no charge.</font>    네트워크 서버의 해당 소스 무료.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    c) Convey individual copies of the object code with a copy of the
-</font>    c) 객체 코드의 개별 사본과 함께 전달
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    written offer to provide the Corresponding Source.</font>    해당 소스를 제공하기 위한 서면 제안.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  This
-</font>  이것
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    alternative is allowed only occasionally and noncommercially, and
-</font>    대안은 때때로 그리고 비상업적으로만 허용된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    only if you received the object code with such an offer, in accord
-</font>    당신이 그와 같은 오퍼와 함께 객체 코드를 받은 경우에만.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    with subsection 6b.
-</font>    6b항과 함께.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    d) Convey the object code by offering access from a designated
-</font>    d) 지정된 접근 권한을 부여하여 객체 코드 전달
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    place (gratis or for a charge), and offer equivalent access to the
-</font>    (환원 또는 요금을 지불하고) 에 동등한 접근 권한을 제공한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Corresponding Source in the same way through the same place at no
-</font>    동일한 장소에서 동일한 방식으로 no로 해당 소스
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    further charge.</font>    추가 요금</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You need not require recipients to copy the
-</font>  수신인이 복사하도록 요청할 필요 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Corresponding Source along with the object code.</font>    개체 코드와 함께 해당 소스.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If the place to
-</font>  만약 ~할 장소라면
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    copy the object code is a network server, the Corresponding Source
-</font>    copy the object code is a network server, the source
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    may be on a different server (operated by you or a third party)
-</font>    다른 서버에 있을 수 있음(사용자 또는 제3자에 의해 운영됨)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    that supports equivalent copying facilities, provided you maintain
-</font>    동일한 복사 설비를 지원하는 경우(유지관리 제공
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    clear directions next to the object code saying where to find the
-</font>    목적어 코드 옆에 있는 지시사항을 지우고 위치를 표시하십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Corresponding Source.</font>    해당 소스.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Regardless of what server hosts the
-</font>  호스트하는 서버와 상관없이
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Corresponding Source, you remain obligated to ensure that it is
-</font>    해당 출처, 귀하는 해당 출처를 확인할 의무가 있음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    available for as long as needed to satisfy these requirements.</font>    이러한 요건을 충족하기 위해 필요한 기간 동안 이용할 수 있는.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    e) Convey the object code using peer-to-peer transmission, provided
-</font>    e) P2P 전송을 사용하여 객체 코드 전달(제공됨)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    you inform other peers where the object code and Corresponding
-</font>    다른 피어에게 개체 코드와 해당 위치를 알려주는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Source of the work are being offered to the general public at no
-</font>    작품의 출처는 일반 대중에게 무료로 제공되고 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    charge under subsection 6d.
-</font>    6d항에 따라 부과한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A separable portion of the object code, whose source code is excluded
-</font>  소스 코드가 제외된 개체 코드의 분리 가능한 부분
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">from the Corresponding Source as a System Library, need not be
-</font>시스템 라이브러리로서의 해당 원본에서 다음이 필요 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">included in conveying the object code work.</font>객체 코드 작업 전달에 포함.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A "User Product" is either (1) a "consumer product", which means any
-</font>  "사용자 제품"은 (1) "소비자 제품" 중 하나이며, 이는 다음을 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">tangible personal property which is normally used for personal, family,
-</font>개인, 가족, 가족, 개인에 주로 사용되는 유형적 개인 재산
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">or household purposes, or (2) anything designed or sold for incorporation
-</font>또는 가정 목적 또는 (2) 법인 설립을 위해 설계되거나 판매된 모든 것
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">into a dwelling.</font>주거지로.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  In determining whether a product is a consumer product,
-</font>  제품이 소비자 제품인지 여부를 판단할 때,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">doubtful cases shall be resolved in favor of coverage.</font>의심스러운 사건은 취재에 유리하게 해결되어야 한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  For a particular
-</font>  특정의 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">product received by a particular user, "normally used" refers to a
-</font>특정 사용자가 받은 제품, "사용된 제품"은
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">typical or common use of that class of product, regardless of the status
-</font>상태와 관계없이 해당 제품 클래스의 일반적인 사용 또는 일반적인 사용
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">of the particular user or of the way in which the particular user
-</font>특정 사용자의 경우 또는 특정 사용자의 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">actually uses, or expects or is expected to use, the product.</font>실제로 제품을 사용하거나, 사용할 것으로 예상하거나, 사용할 것으로 예상한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A product
-</font>  A제품
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">is a consumer product regardless of whether the product has substantial
-</font>제품이 실질적인지 여부에 관계 없이 소비자 제품임
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">commercial, industrial or non-consumer uses, unless such uses represent
-</font>상업적, 산업적 또는 비사용적 용도가 나타내는 경우를 제외하고
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the only significant mode of use of the product.</font>제품의 유일한 중요한 사용 방식</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  "Installation Information" for a User Product means any methods,
-</font>  사용자 제품에 대한 "설치 정보"는 모든 방법을 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">procedures, authorization keys, or other information required to install
-</font>설치에 필요한 절차, 인증 키 또는 기타 정보
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">and execute modified versions of a covered work in that User Product from
-</font>다음에서 해당 사용자 제품에 포함된 작업의 수정된 버전을 실행하십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">a modified version of its Corresponding Source.</font>해당 출처의 수정된 버전</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The information must
-</font>  정보는 반드시
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">suffice to ensure that the continued functioning of the modified object
-</font>수정된 물체가 계속 작동하는지 확인하기에 충분하다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">code is in no case prevented or interfered with solely because
-</font>코드는 단지 이유만으로 금지되거나 간섭된 것이 아니다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">modification has been made.</font>수정이 되었다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If you convey an object code work under this section in, or with, or
-</font>  이 섹션에 따라 다음 섹션에 있는 객체 코드 작업을 전달하는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">specifically for use in, a User Product, and the conveying occurs as
-</font>특히 에 사용하기 위해 사용자 제품 및 전달은 다음과 같이 발생한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">part of a transaction in which the right of possession and use of the
-</font>소유권과 사용권이 있는 거래의 일부
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">User Product is transferred to the recipient in perpetuity or for a
-</font>사용자 제품이 영구적으로 또는 영구적으로 수신자에게 전송됨
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">fixed term (regardless of how the transaction is characterized), the
-</font>고정 기간(거래의 특성의 차이),
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Corresponding Source conveyed under this section must be accompanied
-</font>이 조에 따라 전달된 해당 소스가 반드시 동반되어야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">by the Installation Information.</font>설치 정보를 참조하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  But this requirement does not apply
-</font>  그러나 이 요구사항은 적용되지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">if neither you nor any third party retains the ability to install
-</font>귀하와 제3자 모두 설치 능력을 보유하지 않는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">modified object code on the User Product (for example, the work has
-</font>사용자 제품의 수정된 개체 코드(예: 작업에서
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">been installed in ROM).</font>ROM에 설치됨).</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The requirement to provide Installation Information does not include a
-</font>  설치 정보를 제공해야 하는 요구 사항에는 다음이 포함되지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">requirement to continue to provide support service, warranty, or updates
-</font>지원 서비스, 보증 또는 업데이트를 계속 제공해야 하는 요구 사항
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">for a work that has been modified or installed by the recipient, or for
-</font>수신인에 의해 수정 또는 설치된 작업 또는 다음에 대한 작업
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the User Product in which it has been modified or installed.</font>수정 또는 설치된 사용자 제품</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Access to a
-</font>  에 대한 액세스 권한
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">network may be denied when the modification itself materially and
-</font>네트워크는 수정 자체가 중요할 때 거부될 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">adversely affects the operation of the network or violates the rules and
-</font>네트워크 운영에 악영향을 미치거나 규칙을 위반하고
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">protocols for communication across the network.</font>네트워크 전체의 통신을 위한 프로토콜.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Corresponding Source conveyed, and Installation Information provided,
-</font>  해당 소스가 전달하고 설치 정보가 제공됨,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">in accord with this section must be in a format that is publicly
-</font>이 조와 일치하여 공개 형식이어야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">documented (and with an implementation available to the public in
-</font>문서화된 (그리고 대중이 이용할 수 있는 구현으로)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">source code form), and must require no special password or key for
-</font>소스 코드 양식)에 대한 특별한 암호 또는 키를 요구하지 마십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">unpacking, reading or copying.</font>포장 풀기, 읽기 또는 복사하기.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  7. Additional Terms.
-</font>  7. 추가 조항.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  "Additional permissions" are terms that supplement the terms of this
-</font>  "추가 권한"은 이 약관을 보완하는 용어다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">License by making exceptions from one or more of its conditions.</font>하나 이상의 조건으로부터 예외를 만들어 라이센스 부여.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Additional permissions that are applicable to the entire Program shall
-</font>전체 프로그램에 적용되는 추가 권한은 다음과 같다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">be treated as though they were included in this License, to the extent
-</font>본 라이센스에 포함된 것처럼 취급받다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">that they are valid under applicable law.</font>해당 법률에 따라 유효한지 여부.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If additional permissions
-</font>  추가 사용 권한인 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">apply only to part of the Program, that part may be used separately
-</font>프로그램의 일부에만 적용되며, 그 부분은 별도로 사용될 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">under those permissions, but the entire Program remains governed by
-</font>그러한 권한에 따라, 그러나 전체 프로그램은 여전히 에 의해 지배된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">this License without regard to the additional permissions.</font>추가 권한과 무관한 이 라이센스.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  When you convey a copy of a covered work, you may at your option
-</font>  커버된 작품의 사본을 전달할 때, 원하는 대로 할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">remove any additional permissions from that copy, or from any part of
-</font>해당 복사본 또는 의 어떤 부분에서 추가 사용 권한을 제거하십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">it.  (Additional permissions may be written to require their own
-</font>(추가 허가는 자체로 요구할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">removal in certain cases when you modify the work.)</font>특정 경우 작업을 수정할 때 제거)</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may place
-</font>  배치해도 좋다
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">additional permissions on material, added by you to a covered work,
-</font>자료에 대한 추가 허가, 커버된 작업에 추가,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">for which you have or can give appropriate copyright permission.</font>적절한 저작권 허가를 받았거나 할 수 있는 경우.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Notwithstanding any other provision of this License, for material you
-</font>  본 라이센스의 다른 조항에도 불구하고, 귀하에게 필요한 자료
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">add to a covered work, you may (if authorized by the copyright holders of
-</font>커버된 작품에 추가할 수 있다(저작권 소유자의 허가를 받은 경우).
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">that material) supplement the terms of this License with terms:</font>이 자료) 본 라이센스의 조항을 다음과 같은 조건으로 보충하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    a) Disclaiming warranty or limiting liability differently from the
-</font>    a) 보증 거부 또는 책임 제한은 다음과 다르다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    terms of sections 15 and 16 of this License; or
-</font>    본 면허의 제15절 및 제16절의 조항
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    b) Requiring preservation of specified reasonable legal notices or
-</font>    b) 지정된 합리적인 법적 고지 사항의 보존 요구 또는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    author attributions in that material or in the Appropriate Legal
-</font>    해당 자료 또는 해당 법률에 대한 허가 귀속
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Notices displayed by works containing it; or
-</font>    이를 포함하는 작업별로 표시되는 통지
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    c) Prohibiting misrepresentation of the origin of that material, or
-</font>    c) 해당 자료의 출처를 잘못 표시하는 것을 금지하거나,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    requiring that modified versions of such material be marked in
-</font>    해당 자료의 수정된 버전이 에 표시되어야 함
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    reasonable ways as different from the original version; or
-</font>    원본과 다른 합리적인 방법
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    d) Limiting the use for publicity purposes of names of licensors or
-</font>    d) 사용허가자 명의의 홍보를 위한 용도 제한
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    authors of the material; or
-</font>    자료의 작성자, 또는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    e) Declining to grant rights under trademark law for use of some
-</font>    e) 일부의 사용에 대한 상표법에 따른 권리 부여 거부
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    trade names, trademarks, or service marks; or
-</font>    상호, 상표 또는 서비스 상표
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    f) Requiring indemnification of licensors and authors of that
-</font>    f) 라이센스 허여자와 해당 작성자의 면책 요구
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    material by anyone who conveys the material (or modified versions of
-</font>    자료(또는 수정된 버전의)를 전달하는 모든 사람에 의한 자료
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    it) with contractual assumptions of liability to the recipient, for
-</font>    (i) 다음을 위해 수취인에 대한 책임에 대한 계약상 가정
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    any liability that these contractual assumptions directly impose on
-</font>    이러한 계약적 가정이 직접 부담하는 모든 책임
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    those licensors and authors.</font>    그 허가자와 작가들</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  All other non-permissive additional terms are considered "further
-</font>  다른 모든 비영구적 추가 용어는 "더 많은" 것으로 간주된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">restrictions" within the meaning of section 10.</font>제한사항"은 제10절의 의미 내에서.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If the Program as you
-</font>  프로그램이 귀하와 같은 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">received it, or any part of it, contains a notice stating that it is
-</font>수령한 것, 또는 그 일부분에는 그 사실을 기재한 통지가 들어 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">governed by this License along with a term that is a further
-</font>본 라이센스의 지배하에 추가 용어
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">restriction, you may remove that term.</font>제한, 해당 용어를 삭제하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If a license document contains
-</font>  라이센스 문서에 포함된 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">a further restriction but permits relicensing or conveying under this
-</font>추가 제한. 그러나 이에 따라 유물화 또는 전달을 허용한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">License, you may add to a covered work material governed by the terms
-</font>라이센스, 약관에 따라 적용되는 커버링된 작업 자료에 추가 가능
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">of that license document, provided that the further restriction does
-</font>해당 라이센스 문서의 추가 제한 사항이
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">not survive such relicensing or conveying.</font>그런 유물이나 전달에서 살아남지 못할 것이다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If you add terms to a covered work in accord with this section, you
-</font>  이 절에 따라 포함된 작업에 용어를 추가하는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">must place, in the relevant source files, a statement of the
-</font>관련 소스 파일에 다음 문구를 넣어야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">additional terms that apply to those files, or a notice indicating
-</font>해당 파일에 적용되는 추가 용어 또는 다음을 나타내는 통지
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">where to find the applicable terms.</font>해당 조건을 찾을 수 있는 위치.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Additional terms, permissive or non-permissive, may be stated in the
-</font>  허용 또는 비 허용의 추가 조항은 다음 문서에 명시될 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">form of a separately written license, or stated as exceptions;
-</font>별도로 서면 또는 예외로 명시된 면허의 형식
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the above requirements apply either way.
-</font>위의 요구 사항은 어느 쪽이든 적용된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  8. Termination.</font>  8. 종료.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may not propagate or modify a covered work except as expressly
-</font>  명시적인 경우를 제외하고는 피복된 작품을 전파하거나 수정할 수 없다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">provided under this License.</font>본 라이센스에 따라 제공됨.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Any attempt otherwise to propagate or
-</font>  다른 방법으로 전파하거나 전파하려는 시도
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">modify it is void, and will automatically terminate your rights under
-</font>그것을 수정하면 무효가 되고, 당신의 권리는 자동으로 해지될 것이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">this License (including any patent licenses granted under the third
-</font>본 라이센스(세 번째 라이센스에 따라 부여된 모든 특허 라이센스 포함)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">paragraph of section 11).</font>제11항).</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  However, if you cease all violation of this License, then your
-</font>  그러나 이 라이선스의 모든 위반을 중단하면
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">license from a particular copyright holder is reinstated (a)
-</font>특정 저작권 소유자의 라이센스가 복구됨(a)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">provisionally, unless and until the copyright holder explicitly and
-</font>저작권 소유자가 명시적으로 하지 않는 한, 그리고 소유자가 명시하지 않는 한, 그리고 소유자가 그리고
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">finally terminates your license, and (b) permanently, if the copyright
-</font>최종적으로 면허를 종료하고, (b) 저작권이 있는 경우 영구적으로 면허를 종료한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">holder fails to notify you of the violation by some reasonable means
-</font>소유자가 합리적인 방법으로 위반 사실을 통지하지 않다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">prior to 60 days after the cessation.</font>폐업 후 60일 이전에</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Moreover, your license from a particular copyright holder is
-</font>  게다가, 특정 저작권 소유자로부터 당신의 면허는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">reinstated permanently if the copyright holder notifies you of the
-</font>저작권 소유자가 귀하에게 통지하면 영구적으로 복권됨
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">violation by some reasonable means, this is the first time you have
-</font>어떤 합리적인 수단에 의한 위반, 이번이 처음이구나.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">received notice of violation of this License (for any work) from that
-</font>그것으로부터 본 면허 위반에 대한 통지를 받았다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">copyright holder, and you cure the violation prior to 30 days after
-</font>저작권 소유자, 그리고 당신은 30일전에 위반을 치료한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">your receipt of the notice.</font>통지서를 받으십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Termination of your rights under this section does not terminate the
-</font>  본 조에 따라 귀하의 권리를 종료하더라도
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">licenses of parties who have received copies or rights from you under
-</font>아래 귀하로부터 사본 또는 권리를 수령한 당사자의 라이센스
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">this License.</font>본 면허증</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If your rights have been terminated and not permanently
-</font>  권한이 영구적으로 종료되지 않은 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">reinstated, you do not qualify to receive new licenses for the same
-</font>복원됨, 동일한 항목에 대한 새 라이센스를 받을 자격이 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">material under section 10.</font>제10조에 따른 자료</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  9. Acceptance Not Required for Having Copies.</font>  9. 사본 보유 시 승인 필요 없음.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You are not required to accept this License in order to receive or
-</font>  수신 또는 수신하기 위해 이 라이센스를 수락할 필요가 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">run a copy of the Program.</font>그 계획의 사본을 만들다</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Ancillary propagation of a covered work
-</font>  피복작업의 보조적 전파
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">occurring solely as a consequence of using peer-to-peer transmission
-</font>단지 피어 투 피어 전송을 사용한 결과로 발생한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">to receive a copy likewise does not require acceptance.</font>마찬가지로 사본을 받는 것도 승낙을 필요로 하지 않는다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  However,
-</font>  그러나
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">nothing other than this License grants you permission to propagate or
-</font>이 라이센스 이외의 어떤 라이센스도 전파할 수 있는 권한을 부여하지 않음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">modify any covered work.</font>덮개를 씌운 일을 수정하다</font><font class="papago-parent"><font class="papago-source" style="display:none;">  These actions infringe copyright if you do
-</font>  이러한 조치는 저작권을 침해한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">not accept this License.</font>이 라이센스를 수락하지 마십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Therefore, by modifying or propagating a
-</font>  따라서, 수정 또는 전파를 통해
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">covered work, you indicate your acceptance of this License to do so.</font>커버드된 작업으로, 본 라이센스의 수락 여부를 명시하는 경우.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  10. Automatic Licensing of Downstream Recipients.</font>  10. 다운스트림 수신인의 자동 라이선스.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Each time you convey a covered work, the recipient automatically
-</font>  커버된 작업을 전달할 때마다 수신자가 자동으로
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">receives a license from the original licensors, to run, modify and
-</font>실행, 수정 및 수정하기 위해 원래 사용 허가자로부터 라이센스를 받는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">propagate that work, subject to this License.</font>본 라이센스에 따라 해당 작업을 전파하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You are not responsible
-</font>  당신은 책임이 없다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">for enforcing compliance by third parties with this License.</font>본 라이센스의 제3자에 의한 컴플라이언스 시행.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  An "entity transaction" is a transaction transferring control of an
-</font>  "기업거래"는 거래의 통제권을 이전하는 거래다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">organization, or substantially all assets of one, or subdividing an
-</font>조직, 또는 실질적으로 하나의 모든 자산 또는 세분화
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">organization, or merging organizations.</font>조직 또는 병합 조직.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If propagation of a covered
-</font>  커버된 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">work results from an entity transaction, each party to that
-</font>각 당사자가 기업거래를 통해 얻은 결과.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">transaction who receives a copy of the work also receives whatever
-</font>일의 사본을 받는 거래 또한 모든 것을 받는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">licenses to the work the party's predecessor in interest had or could
-</font>당의 전임자가 가지고 있거나 관심을 가질 수 있는 일에 대한 면허증.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">give under the previous paragraph, plus a right to possession of the
-</font>전항에 의거하여 소유권을 주다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Corresponding Source of the work from the predecessor in interest, if
-</font>관심 있는 전임자의 저작물 출처(해당되는 경우)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the predecessor has it or can get it with reasonable efforts.</font>전임자는 그것을 가지고 있거나 혹은 합리적인 노력으로 얻을 수 있다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may not impose any further restrictions on the exercise of the
-</font>  더 이상의 행사 제한은 할 수 없다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">rights granted or affirmed under this License.</font>본 라이센스에 따라 허가되거나 확인된 권리</font><font class="papago-parent"><font class="papago-source" style="display:none;">  For example, you may
-</font>  예를 들어, 당신은 할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">not impose a license fee, royalty, or other charge for exercise of
-</font>면허료, 로열티 또는 기타 비용을 부과하지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">rights granted under this License, and you may not initiate litigation
-</font>본 라이센스에 따라 부여된 권한, 귀하는 소송을 제기할 수 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">(including a cross-claim or counterclaim in a lawsuit) alleging that
-</font>(소송에서 엇갈린 주장이나 반론도 포함) 라고 주장하며
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">any patent claim is infringed by making, using, selling, offering for
-</font>특허청구는 다음을 위해 제조, 사용, 판매, 제공함으로써 침해된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">sale, or importing the Program or any portion of it.</font>프로그램 또는 프로그램 일부를 판매하거나 가져오십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  11. Patents.</font>  11. 특허.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A "contributor" is a copyright holder who authorizes use under this
-</font>  "출고자"는 이에 따라 사용을 허가하는 저작권 소유자다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">License of the Program or a work on which the Program is based.</font>프로그램의 라이센스 또는 프로그램의 기반이 되는 저작물.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The
-</font>  그
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">work thus licensed is called the contributor's "contributor version".</font>이렇게 허가된 작업을 기고자의 "기고 버전"이라고 부른다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A contributor's "essential patent claims" are all patent claims
-</font>  기여자의 "필수 특허청구"는 모두 특허청구다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">owned or controlled by the contributor, whether already acquired or
-</font>기고자가 소유하거나 통제하는 경우, 이미 취득한 경우든, 또는 이미 취득한 경우든
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">hereafter acquired, that would be infringed by some manner, permitted
-</font>인수한 후에, 그것은 어떤 방식으로든 침해될 것이고, 허용될 것이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">by this License, of making, using, or selling its contributor version,
-</font>이 라이센스에 의해, 기여자 버전의 제작, 사용 또는 판매
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">but do not include claims that would be infringed only as a
-</font>그러나 오직 하나의 이유로만 침해될 수 있는 주장은 포함하지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">consequence of further modification of the contributor version.</font>기여자 버전의 추가 수정 결과.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  For
-</font>  을 위해
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">purposes of this definition, "control" includes the right to grant
-</font>이 정의의 목적, "통제"는 부여할 권리를 포함한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">patent sublicenses in a manner consistent with the requirements of
-</font>의 요구 사항에 부합하는 방식으로 특허 등록
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">this License.</font>본 면허증</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Each contributor grants you a non-exclusive, worldwide, royalty-free
-</font>  각 기고자는 귀하에게 비독점적이고 전세계적이며 로열티가 없는 혜택을 제공함
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">patent license under the contributor's essential patent claims, to
-</font>기고자의 필수 특허권 청구에 따른 특허권.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">make, use, sell, offer for sale, import and otherwise run, modify and
-</font>제조, 사용, 판매, 판매, 판매, 수입 및 기타 실행, 수정 및
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">propagate the contents of its contributor version.</font>기고본의 내용을 전파하다</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  In the following three paragraphs, a "patent license" is any express
-</font>  다음 세 단락에서 "특허권"은 어떤 명시적 표현이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">agreement or commitment, however denominated, not to enforce a patent
-</font>아무리 명시되어 있더라도 특허를 집행하지 않겠다는 합의나 약속
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">(such as an express permission to practice a patent or covenant not to
-</font>(특허를 실행하기 위한 명시적 허가 또는 하지 않는 언약과 같은 것)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">sue for patent infringement).</font>특허 침해 소송을 제기하다</font><font class="papago-parent"><font class="papago-source" style="display:none;">  To "grant" such a patent license to a
-</font>  그러한 특허권 라이선스를 a에 "양도"하는 것
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">party means to make such an agreement or commitment not to enforce a
-</font>정당이란 그러한 합의나 약속을 이행하지 않는 것을 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">patent against the party.</font>당에 대항하여 특허를 내다</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If you convey a covered work, knowingly relying on a patent license,
-</font>  만약 당신이 고의로 특허 허가에 의존하여 커버된 작품을 전달한다면,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">and the Corresponding Source of the work is not available for anyone
-</font>해당 작업 소스(Source of the work)는 어느 누구도 사용할 수 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">to copy, free of charge and under the terms of this License, through a
-</font>본 라이센스의 조건에 따라 다음을 통해 무료로 복사
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">publicly available network server or other readily accessible means,
-</font>공개적으로 이용 가능한 네트워크 서버 또는 쉽게 접근할 수 있는 다른 수단
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">then you must either (1) cause the Corresponding Source to be so
-</font>그런 다음 (1) 해당 소스가 그렇게 되도록 해야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">available, or (2) arrange to deprive yourself of the benefit of the
-</font>이용 가능한, 또는 (2) 본인에게서 이익을 박탈할 것을 주선한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">patent license for this particular work, or (3) arrange, in a manner
-</font>이 특정 작업에 대한 특허 허가서 또는 (3) 어떤 방식으로 배열한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">consistent with the requirements of this License, to extend the patent
-</font>본 라이센스의 요구 사항과 일치하여, 특허권 연장
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">license to downstream recipients.</font>다운스트림 수신인에 대한 라이센스 부여</font><font class="papago-parent"><font class="papago-source" style="display:none;">  "Knowingly relying" means you have
-</font>  "알고 의지한다"는 것은 당신이 가진 것을 의미한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">actual knowledge that, but for the patent license, your conveying the
-</font>실제 지식은, 하지만 특허 면허의 경우, 당신의 전달은
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">covered work in a country, or your recipient's use of the covered work
-</font>해당 국가에서 적용되는 작업 또는 수령인의 해당 작업 사용
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">in a country, would infringe one or more identifiable patents in that
-</font>한 국가에서, 하나 이상의 식별할 수 있는 특허를 침해할 수 있음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">country that you have reason to believe are valid.</font>당신이 믿을만한 이유가 있는 나라는 유효하다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If, pursuant to or in connection with a single transaction or
-</font>  단일 거래에 의거하거나 관련되는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">arrangement, you convey, or propagate by procuring conveyance of, a
-</font>다음을 운반하여 전달하거나 전파하는 방법
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">covered work, and grant a patent license to some of the parties
-</font>피복된 작업, 그리고 일부 당사자에게 특허 허가를 허가하다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">receiving the covered work authorizing them to use, propagate, modify
-</font>사용, 전파, 수정을 승인하는 커버된 작업 수신
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">or convey a specific copy of the covered work, then the patent license
-</font>또는 피복된 작업의 특정 사본을 전달하고, 그 다음에 특허 허가증을 전달한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">you grant is automatically extended to all recipients of the covered
-</font>귀하는 해당 대상의 모든 수신인에게 자동으로 확대됨
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">work and works based on it.</font>그것을 토대로 하여 일을 하고 일을 하다</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  A patent license is "discriminatory" if it does not include within
-</font>  특허면허는 그 안에 포함되지 않을 경우 "차별적"이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the scope of its coverage, prohibits the exercise of, or is
-</font>그 적용범위의 범위, 또는 의 행사를 금지하거나 또는 금지한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">conditioned on the non-exercise of one or more of the rights that are
-</font>하나 이상의 권리 중 하나 이상의 권리 불이행에 대해 조건부.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">specifically granted under this License.</font>본 라이센스에 따라 특별히 부여된.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You may not convey a covered
-</font>  덮개를 운반할 수 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">work if you are a party to an arrangement with a third party that is
-</font>만약 당신이 제3자와의 협정의 당사자인 경우에 일한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">in the business of distributing software, under which you make payment
-</font>당신이 지불하는 소프트웨어를 배포하는 사업에서.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">to the third party based on the extent of your activity of conveying
-</font>당신의 전달 활동 정도에 근거하여 제3자에게
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the work, and under which the third party grants, to any of the
-</font>제삼자가 어느 누구에게도 허가하는 일.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">parties who would receive the covered work from you, a discriminatory
-</font>당신에게서 가려진 일을 받을 정당들, 차별적인 행위.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">patent license (a) in connection with copies of the covered work
-</font>피복된 저작물의 사본과 관련된 특허권 (a)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">conveyed by you (or copies made from those copies), or (b) primarily
-</font>귀하(또는 해당 사본으로 만든 사본) 또는 (b) 주로
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">for and in connection with specific products or compilations that
-</font>다음과 같은 특정 제품 또는 컴파일과 관련하여
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">contain the covered work, unless you entered into that arrangement,
-</font>당신이 그 계약을 맺지 않는 한, 은폐된 일을 포함시켜라.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">or that patent license was granted, prior to 28 March 2007.
-</font>또는 특허허가가 2007년 3월 28일 이전에 허가되었다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Nothing in this License shall be construed as excluding or limiting
-</font>  이 라이센스의 어떤 내용도 제외 또는 제한으로 해석되지 않아야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">any implied license or other defenses to infringement that may
-</font>침해에 대한 묵시적인 허가나 기타 방어.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">otherwise be available to you under applicable patent law.</font>그렇지 않으면 적용 가능한 특허법에 따라 귀하가 이용할 수 있다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  12. No Surrender of Others' Freedom.</font>  12. 타인의 자유 항복을 금한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If conditions are imposed on you (whether by court order, agreement or
-</font>  당신에게 조건이 부과되는 경우(재판 명령, 합의 또는 합의)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">otherwise) that contradict the conditions of this License, they do not
-</font>그렇지 않은 경우) 본 라이센스의 조건과 모순되는 경우, 다음과 같이 하지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">excuse you from the conditions of this License.</font>본 사용권 조건에 동의하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If you cannot convey a
-</font>  A을(를) 전달할 수 없는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">covered work so as to satisfy simultaneously your obligations under this
-</font>이에 따른 의무를 동시에 이행할 수 있도록 피복된 업무
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">License and any other pertinent obligations, then as a consequence you may
-</font>라이센스 및 기타 관련 의무, 그 결과 귀하는 것이 가능하다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">not convey it at all.</font>전혀 전달하지 않는다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  For example, if you agree to terms that obligate you
-</font>  예를 들어, 만약 당신이 당신에게 의무적인 조건에 동의한다면
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">to collect a royalty for further conveying from those to whom you convey
-</font>당신이 전달하는 사람들로부터 더 많은 전달에 대한 로열티를 징수한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the Program, the only way you could satisfy both those terms and this
-</font>당신이 그 조건과 이것 모두를 만족시킬 수 있는 유일한 방법인 프로그램
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">License would be to refrain entirely from conveying the Program.</font>라이센스는 프로그램 전달을 완전히 자제하는 것이 될 것이다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  13. Use with the GNU Affero General Public License.</font>  13. GNU Affero 일반 공중 면허와 함께 사용한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Notwithstanding any other provision of this License, you have
-</font>  본 라이센스의 다른 조항에도 불구하고, 귀하는 다음과 같이 하십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">permission to link or combine any covered work with a work licensed
-</font>포함된 모든 작업을 허가된 작업과 연결하거나 결합할 수 있는 권한
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">under version 3 of the GNU Affero General Public License into a single
-</font>GNU Affero General Public License 버전 3에 따라 단일 항목으로 구성
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">combined work, and to convey the resulting work.</font>결합 작업, 결과 작업 전달</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The terms of this
-</font>  이것의 조건
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">License will continue to apply to the part which is the covered work,
-</font>해당 작업에 적용되는 부분에 대해서는 라이센스가 계속 적용된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">but the special requirements of the GNU Affero General Public License,
-</font>하지만 GNU 아페로 일반 공중 면허의 특별한 요구사항은
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">section 13, concerning interaction through a network will apply to the
-</font>제13절, 네트워크를 통한 상호작용에 관한 사항은 다음 항목에 적용된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">combination as such.</font>그와 같은 결합</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  14. Revised Versions of this License.</font>  14. 본 라이센스의 개정 버전</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The Free Software Foundation may publish revised and/or new versions of
-</font>  Free Software Foundation은 개정판 및/또는 새로운 버전의
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the GNU General Public License from time to time.</font>GNU 일반 공중 면허증</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Such new versions will
-</font>  그런 새로운 버전이 나올 것이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">be similar in spirit to the present version, but may differ in detail to
-</font>현판과 정신은 비슷하나, 세부적으로는 차이가 있을 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">address new problems or concerns.</font>새로운 문제나 우려를 해결하다</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Each version is given a distinguishing version number.</font>  각 버전에는 구별되는 버전 번호가 부여된다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If the
-</font>  만약
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Program specifies that a certain numbered version of the GNU General
-</font>프로그램에서는 GNU General의 특정 번호 버전을 지정
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Public License "or any later version" applies to it, you have the
-</font>공용 라이센스 "또는 이후 버전"이 적용되면
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">option of following the terms and conditions either of that numbered
-</font>다음 중 어느 하나에 해당하는 약관을 준수할 수 있는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">version or of any later version published by the Free Software
-</font>무료 소프트웨어에서 게시한 이후 버전의 버전 또는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Foundation.</font>파운데이션</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If the Program does not specify a version number of the
-</font>  프로그램에서 의 버전 번호를 지정하지 않은 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">GNU General Public License, you may choose any version ever published
-</font>GNU General Public License(GNU 일반 공중 라이센스), 게시된 버전을 선택하십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">by the Free Software Foundation.</font>자유 소프트웨어 재단에 의해.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If the Program specifies that a proxy can decide which future
-</font>  프로그램에서 프록시가 어떤 미래를 결정할 수 있는지 지정하는 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">versions of the GNU General Public License can be used, that proxy's
-</font>GNU General Public License 버전 사용 가능, 해당 프록시의 버전
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">public statement of acceptance of a version permanently authorizes you
-</font>귀하가 영구적으로 권한을 부여한 버전의 수락에 대한 공개 진술
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">to choose that version for the Program.</font>프로그램에 사용할 버전을 선택하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Later license versions may give you additional or different
-</font>  이후 라이센스 버전에서는 추가 또는 다른 기능을 제공할 수 있음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">permissions.</font>허가권</font><font class="papago-parent"><font class="papago-source" style="display:none;">  However, no additional obligations are imposed on any
-</font>  단, 어떠한 추가 의무도 부과되지 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">author or copyright holder as a result of your choosing to follow a
-</font>귀하가 다음을 따르기로 선택한 결과, 저작자 또는 저작권 소유자
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">later version.</font>후기판</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  15. Disclaimer of Warranty.</font>  15. 보증 거부.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
-</font>  프로그램에 대해 허용되는 범위 내에서 보증 없음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">APPLICABLE LAW.</font>적용 가능한 법률.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
-</font>  저작권을 서면으로 달리 명시하는 경우를 제외하고
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
-</font>보유자 및/또는 기타 당사자가 보증 없이 "있는 그대로" 프로그램 제공
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
-</font>어떤 종류의 것이든, 표현되거나 묵시적이거나, 포함하되 이에 국한되지는 않는다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-</font>특정 상품성 및 특정 고객에 대한 적합성에 대한 묵시적 보증
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
-</font>목적. 프로그램의 품질 및 성능에 대한 전체
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
-</font>"당신과 함께 있다" "프로그램에서 결함이 있다고 판명되면, 당신은 그 비용을 가정한다"
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</font>필요한 모든 서비스, 수리 또는 수정.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  16. Limitation of Liability.</font>  16. 책임의 한계.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
-</font>  해당 법률에 의해 요구되거나 서면으로 합의되지 않는 한 어떠한 경우에도 해당되지 않음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
-</font>저작권 소유자 또는 수정 및/또는 전달되는 다른 당사자
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
-</font>위에서 허용하는 프로그램, 손상에 대한 책임을 지십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
-</font>일반적, 특수적, 부수적 또는 결과적 손해
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
-</font>프로그램 사용 또는 사용 불가능(손실에 국한되지 않음)
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
-</font>데이터 또는 데이터가 부정확하게 렌더링되거나 귀하 또는 제3자에 의해 지속되는 손실
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
-</font>다른 프로그램과 함께 운영하는 당사자나 프로그램의 실패자,
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
-</font>그러한 보유자 또는 다른 당사자에게 다음의 가능성을 통지했더라도
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">SUCH DAMAGES.</font>그러한 피해.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  17. Interpretation of Sections 15 and 16.</font>  17. 15절과 16절의 해석.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If the disclaimer of warranty and limitation of liability provided
-</font>  보증 거부 및 책임 제한 사항이 제공된 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">above cannot be given local legal effect according to their terms,
-</font>상기 조항은 해당 지역의 법적 효력을 부여할 수 없다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">reviewing courts shall apply local law that most closely approximates
-</font>검토 법정은 가장 근접한 지방법을 적용해야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">an absolute waiver of all civil liability in connection with the
-</font>에 관한 모든 민사 책임의 절대 포기.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Program, unless a warranty or assumption of liability accompanies a
-</font>보증 또는 책임 가정이 동반되지 않는 한, 프로그램
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">copy of the Program in return for a fee.</font>유료로 프로그램의 사본</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">                     END OF TERMS AND CONDITIONS
-</font>                     약관 종료
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">            How to Apply These Terms to Your New Programs
-</font>            새 프로그램에 이 약관을 적용하는 방법
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If you develop a new program, and you want it to be of the greatest
-</font>  만약 당신이 새로운 프로그램을 개발하고 그것이 가장 위대한 프로그램이 되기를 원한다면.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">possible use to the public, the best way to achieve this is to make it
-</font>대중에게 가능한 사용, 이것을 성취하는 가장 좋은 방법은 그것을 만드는 것이다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">free software which everyone can redistribute and change under these terms.</font>이 조건에 따라 모든 사람이 재배포하고 변경할 수 있는 무료 소프트웨어</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  To do so, attach the following notices to the program.</font>  그렇게 하려면 다음 통지를 프로그램에 첨부하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  It is safest
-</font>  그것이 가장 안전하다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">to attach them to the start of each source file to most effectively
-</font>가장 효과적으로 각 원본 파일의 시작 부분에 첨부한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">state the exclusion of warranty; and each file should have at least
-</font>보증 제외를 명시한다. 각 파일에는 최소한 다음과 같은 내용이 포함되어야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the "copyright" line and a pointer to where the full notice is found.</font>전체 통지가 있는 곳을 가리키는 "경고" 줄과 포인터</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    <one line to give the program's name and a brief idea of what it does.</font>    <그 프로그램의 이름과 그것이 하는 일에 대한 간략한 생각을 주는 한 줄.</font><font class="papago-parent"><font class="papago-source" style="display:none;">>
-</font>>
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    Copyright (C) <year>  <name of author>
-</font>    저작권 (C) <년> <저자의 이름>
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    This program is free software: you can redistribute it and/or modify
-</font>    이 프로그램은 무료 소프트웨어: 재분배 및/또는 수정 가능
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    it under the terms of the GNU General Public License as published by
-</font>    그것은 GNU General Public License의 조항에 의거하여 출판되었다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    the Free Software Foundation, either version 3 of the License, or
-</font>    무료 소프트웨어 재단, 라이센스 버전 3 또는
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    (at your option) any later version.</font>    (선택사항으로) 이후 버전.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    This program is distributed in the hope that it will be useful,
-</font>    이 프로그램은 유용하게 쓰이길 바라며 배포된다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    but WITHOUT ANY WARRANTY; without even the implied warranty of
-</font>    그러나 어떠한 보증도 없이, 심지어 의 묵시적인 보증도 없이
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</font>    특정 목적에 대한 상품성 또는 적합성.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  See the
-</font>  보기
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    GNU General Public License for more details.</font>    GNU General Public License에 대해 자세히 알아보십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    You should have received a copy of the GNU General Public License
-</font>    GNU General Public License 사본을 받았어야 함
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    along with this program.</font>    이 프로그램과 함께</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If not, see <https://www.gnu.org/licenses/>.</font>  그렇지 않다면 <https://www.gnu.org/licenses/>을 참조하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Also add information on how to contact you by electronic and paper mail.</font>또한 전자 우편과 종이 우편으로 연락하는 방법에 대한 정보를 추가하라.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If the program does terminal interaction, make it output a short
-</font>  프로그램이 단자 상호 작용을 하는 경우, 짧게 출력하십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">notice like this when it starts in an interactive mode:</font>대화형 모드에서 시작할 때 다음과 같이 알림:</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    <program>  Copyright (C) <year>  <name of author>
-</font>    <프로그램> 저작권 (C) <년> <작가의 이름>
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.</font>    이 프로그램은 보증 없음. 자세한 내용은 '쇼 w'를 참조하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    This is free software, and you are welcome to redistribute it
-</font>    이것은 무료 소프트웨어고, 당신은 그것을 재분배하는 것을 환영한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">    under certain conditions; type `show c' for details.</font>    특정 조건에서는 'show c'를 입력하여 자세한 내용을 확인하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">The hypothetical commands `show w' and `show c' should show the appropriate
-</font>show w와 show c'라는 가상의 명령은 적절한 것을 보여 주어야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">parts of the General Public License.</font>일반 공중 면허의 일부.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  Of course, your program's commands
-</font>  물론, 프로그램의 명령은
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">might be different; for a GUI interface, you would use an "about box".</font>GUI 인터페이스의 경우 "정보 상자"를 사용하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  You should also get your employer (if you work as a programmer) or school,
-</font>  당신은 또한 당신의 고용주(프로그래머로 일한다면)나 학교를 얻어야 한다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">if any, to sign a "copyright disclaimer" for the program, if necessary.</font>필요한 경우 프로그램에 대한 "보증 거부권"에 서명하십시오.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">For more information on this, and how to apply and follow the GNU GPL, see
-</font>이에 대한 자세한 내용과 GNU GPL을 적용하고 따르는 방법은 을 참조하십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;"><https://www.gnu.org/licenses/>.</font><https://www.gnu.org/licenses/>.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">  The GNU General Public License does not permit incorporating your program
-</font>  GNU General Public License에서는 프로그램 통합을 허용하지 않음
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">into proprietary programs.</font>독점 프로그램에 포함시켰어</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If your program is a subroutine library, you
-</font>  프로그램이 서브루틴 라이브러리인 경우
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">may consider it more useful to permit linking proprietary applications with
-</font>독점적 응용프로그램을 연결할 수 있도록 허용하는 것이 더 유용하다고 생각할 수 있다.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">the library.</font>도서관</font><font class="papago-parent"><font class="papago-source" style="display:none;">  If this is what you want to do, use the GNU Lesser General
-</font>  이 작업을 수행하려면 GNU 약소 일반을 사용하십시오.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;">Public License instead of this License.</font>이 라이센스 대신 공용 라이센스.</font><font class="papago-parent"><font class="papago-source" style="display:none;">  But first, please read
-</font>  하지만 먼저 읽어줘.
-</font><font class="papago-parent"><font class="papago-source" style="display:none;"><https://www.gnu.org/licenses/why-not-lgpl.html>.</font><https://www.gnu.org/licenses/why-not-lgpl.html>.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
-</font>
-
-</font>
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+  The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works.  By contrast,
+the GNU General Public License is intended to guarantee your freedom to
+share and change all versions of a program--to make sure it remains free
+software for all its users.  We, the Free Software Foundation, use the
+GNU General Public License for most of our software; it applies also to
+any other work released this way by its authors.  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+them if you wish), that you receive source code or can get it if you
+want it, that you can change the software or use pieces of it in new
+free programs, and that you know you can do these things.
+
+  To protect your rights, we need to prevent others from denying you
+these rights or asking you to surrender the rights.  Therefore, you have
+certain responsibilities if you distribute copies of the software, or if
+you modify it: responsibilities to respect the freedom of others.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must pass on to the recipients the same
+freedoms that you received.  You must make sure that they, too, receive
+or can get the source code.  And you must show them these terms so they
+know their rights.
+
+  Developers that use the GNU GPL protect your rights with two steps:
+(1) assert copyright on the software, and (2) offer you this License
+giving you legal permission to copy, distribute and/or modify it.
+
+  For the developers' and authors' protection, the GPL clearly explains
+that there is no warranty for this free software.  For both users' and
+authors' sake, the GPL requires that modified versions be marked as
+changed, so that their problems will not be attributed erroneously to
+authors of previous versions.
+
+  Some devices are designed to deny users access to install or run
+modified versions of the software inside them, although the manufacturer
+can do so.  This is fundamentally incompatible with the aim of
+protecting users' freedom to change the software.  The systematic
+pattern of such abuse occurs in the area of products for individuals to
+use, which is precisely where it is most unacceptable.  Therefore, we
+have designed this version of the GPL to prohibit the practice for those
+products.  If such problems arise substantially in other domains, we
+stand ready to extend this provision to those domains in future versions
+of the GPL, as needed to protect the freedom of users.
+
+  Finally, every program is threatened constantly by software patents.
+States should not allow patents to restrict development and use of
+software on general-purpose computers, but in those that do, we wish to
+avoid the special danger that patents applied to a free program could
+make it effectively proprietary.  To prevent this, the GPL assures that
+patents cannot be used to render the program non-free.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+                       TERMS AND CONDITIONS
+
+  0. Definitions.
+
+  "This License" refers to version 3 of the GNU General Public License.
+
+  "Copyright" also means copyright-like laws that apply to other kinds of
+works, such as semiconductor masks.
+
+  "The Program" refers to any copyrightable work licensed under this
+License.  Each licensee is addressed as "you".  "Licensees" and
+"recipients" may be individuals or organizations.
+
+  To "modify" a work means to copy from or adapt all or part of the work
+in a fashion requiring copyright permission, other than the making of an
+exact copy.  The resulting work is called a "modified version" of the
+earlier work or a work "based on" the earlier work.
+
+  A "covered work" means either the unmodified Program or a work based
+on the Program.
+
+  To "propagate" a work means to do anything with it that, without
+permission, would make you directly or secondarily liable for
+infringement under applicable copyright law, except executing it on a
+computer or modifying a private copy.  Propagation includes copying,
+distribution (with or without modification), making available to the
+public, and in some countries other activities as well.
+
+  To "convey" a work means any kind of propagation that enables other
+parties to make or receive copies.  Mere interaction with a user through
+a computer network, with no transfer of a copy, is not conveying.
+
+  An interactive user interface displays "Appropriate Legal Notices"
+to the extent that it includes a convenient and prominently visible
+feature that (1) displays an appropriate copyright notice, and (2)
+tells the user that there is no warranty for the work (except to the
+extent that warranties are provided), that licensees may convey the
+work under this License, and how to view a copy of this License.  If
+the interface presents a list of user commands or options, such as a
+menu, a prominent item in the list meets this criterion.
+
+  1. Source Code.
+
+  The "source code" for a work means the preferred form of the work
+for making modifications to it.  "Object code" means any non-source
+form of a work.
+
+  A "Standard Interface" means an interface that either is an official
+standard defined by a recognized standards body, or, in the case of
+interfaces specified for a particular programming language, one that
+is widely used among developers working in that language.
+
+  The "System Libraries" of an executable work include anything, other
+than the work as a whole, that (a) is included in the normal form of
+packaging a Major Component, but which is not part of that Major
+Component, and (b) serves only to enable use of the work with that
+Major Component, or to implement a Standard Interface for which an
+implementation is available to the public in source code form.  A
+"Major Component", in this context, means a major essential component
+(kernel, window system, and so on) of the specific operating system
+(if any) on which the executable work runs, or a compiler used to
+produce the work, or an object code interpreter used to run it.
+
+  The "Corresponding Source" for a work in object code form means all
+the source code needed to generate, install, and (for an executable
+work) run the object code and to modify the work, including scripts to
+control those activities.  However, it does not include the work's
+System Libraries, or general-purpose tools or generally available free
+programs which are used unmodified in performing those activities but
+which are not part of the work.  For example, Corresponding Source
+includes interface definition files associated with source files for
+the work, and the source code for shared libraries and dynamically
+linked subprograms that the work is specifically designed to require,
+such as by intimate data communication or control flow between those
+subprograms and other parts of the work.
+
+  The Corresponding Source need not include anything that users
+can regenerate automatically from other parts of the Corresponding
+Source.
+
+  The Corresponding Source for a work in source code form is that
+same work.
+
+  2. Basic Permissions.
+
+  All rights granted under this License are granted for the term of
+copyright on the Program, and are irrevocable provided the stated
+conditions are met.  This License explicitly affirms your unlimited
+permission to run the unmodified Program.  The output from running a
+covered work is covered by this License only if the output, given its
+content, constitutes a covered work.  This License acknowledges your
+rights of fair use or other equivalent, as provided by copyright law.
+
+  You may make, run and propagate covered works that you do not
+convey, without conditions so long as your license otherwise remains
+in force.  You may convey covered works to others for the sole purpose
+of having them make modifications exclusively for you, or provide you
+with facilities for running those works, provided that you comply with
+the terms of this License in conveying all material for which you do
+not control copyright.  Those thus making or running the covered works
+for you must do so exclusively on your behalf, under your direction
+and control, on terms that prohibit them from making any copies of
+your copyrighted material outside their relationship with you.
+
+  Conveying under any other circumstances is permitted solely under
+the conditions stated below.  Sublicensing is not allowed; section 10
+makes it unnecessary.
+
+  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+
+  No covered work shall be deemed part of an effective technological
+measure under any applicable law fulfilling obligations under article
+11 of the WIPO copyright treaty adopted on 20 December 1996, or
+similar laws prohibiting or restricting circumvention of such
+measures.
+
+  When you convey a covered work, you waive any legal power to forbid
+circumvention of technological measures to the extent such circumvention
+is effected by exercising rights under this License with respect to
+the covered work, and you disclaim any intention to limit operation or
+modification of the work as a means of enforcing, against the work's
+users, your or third parties' legal rights to forbid circumvention of
+technological measures.
+
+  4. Conveying Verbatim Copies.
+
+  You may convey verbatim copies of the Program's source code as you
+receive it, in any medium, provided that you conspicuously and
+appropriately publish on each copy an appropriate copyright notice;
+keep intact all notices stating that this License and any
+non-permissive terms added in accord with section 7 apply to the code;
+keep intact all notices of the absence of any warranty; and give all
+recipients a copy of this License along with the Program.
+
+  You may charge any price or no price for each copy that you convey,
+and you may offer support or warranty protection for a fee.
+
+  5. Conveying Modified Source Versions.
+
+  You may convey a work based on the Program, or the modifications to
+produce it from the Program, in the form of source code under the
+terms of section 4, provided that you also meet all of these conditions:
+
+    a) The work must carry prominent notices stating that you modified
+    it, and giving a relevant date.
+
+    b) The work must carry prominent notices stating that it is
+    released under this License and any conditions added under section
+    7.  This requirement modifies the requirement in section 4 to
+    "keep intact all notices".
+
+    c) You must license the entire work, as a whole, under this
+    License to anyone who comes into possession of a copy.  This
+    License will therefore apply, along with any applicable section 7
+    additional terms, to the whole of the work, and all its parts,
+    regardless of how they are packaged.  This License gives no
+    permission to license the work in any other way, but it does not
+    invalidate such permission if you have separately received it.
+
+    d) If the work has interactive user interfaces, each must display
+    Appropriate Legal Notices; however, if the Program has interactive
+    interfaces that do not display Appropriate Legal Notices, your
+    work need not make them do so.
+
+  A compilation of a covered work with other separate and independent
+works, which are not by their nature extensions of the covered work,
+and which are not combined with it such as to form a larger program,
+in or on a volume of a storage or distribution medium, is called an
+"aggregate" if the compilation and its resulting copyright are not
+used to limit the access or legal rights of the compilation's users
+beyond what the individual works permit.  Inclusion of a covered work
+in an aggregate does not cause this License to apply to the other
+parts of the aggregate.
+
+  6. Conveying Non-Source Forms.
+
+  You may convey a covered work in object code form under the terms
+of sections 4 and 5, provided that you also convey the
+machine-readable Corresponding Source under the terms of this License,
+in one of these ways:
+
+    a) Convey the object code in, or embodied in, a physical product
+    (including a physical distribution medium), accompanied by the
+    Corresponding Source fixed on a durable physical medium
+    customarily used for software interchange.
+
+    b) Convey the object code in, or embodied in, a physical product
+    (including a physical distribution medium), accompanied by a
+    written offer, valid for at least three years and valid for as
+    long as you offer spare parts or customer support for that product
+    model, to give anyone who possesses the object code either (1) a
+    copy of the Corresponding Source for all the software in the
+    product that is covered by this License, on a durable physical
+    medium customarily used for software interchange, for a price no
+    more than your reasonable cost of physically performing this
+    conveying of source, or (2) access to copy the
+    Corresponding Source from a network server at no charge.
+
+    c) Convey individual copies of the object code with a copy of the
+    written offer to provide the Corresponding Source.  This
+    alternative is allowed only occasionally and noncommercially, and
+    only if you received the object code with such an offer, in accord
+    with subsection 6b.
+
+    d) Convey the object code by offering access from a designated
+    place (gratis or for a charge), and offer equivalent access to the
+    Corresponding Source in the same way through the same place at no
+    further charge.  You need not require recipients to copy the
+    Corresponding Source along with the object code.  If the place to
+    copy the object code is a network server, the Corresponding Source
+    may be on a different server (operated by you or a third party)
+    that supports equivalent copying facilities, provided you maintain
+    clear directions next to the object code saying where to find the
+    Corresponding Source.  Regardless of what server hosts the
+    Corresponding Source, you remain obligated to ensure that it is
+    available for as long as needed to satisfy these requirements.
+
+    e) Convey the object code using peer-to-peer transmission, provided
+    you inform other peers where the object code and Corresponding
+    Source of the work are being offered to the general public at no
+    charge under subsection 6d.
+
+  A separable portion of the object code, whose source code is excluded
+from the Corresponding Source as a System Library, need not be
+included in conveying the object code work.
+
+  A "User Product" is either (1) a "consumer product", which means any
+tangible personal property which is normally used for personal, family,
+or household purposes, or (2) anything designed or sold for incorporation
+into a dwelling.  In determining whether a product is a consumer product,
+doubtful cases shall be resolved in favor of coverage.  For a particular
+product received by a particular user, "normally used" refers to a
+typical or common use of that class of product, regardless of the status
+of the particular user or of the way in which the particular user
+actually uses, or expects or is expected to use, the product.  A product
+is a consumer product regardless of whether the product has substantial
+commercial, industrial or non-consumer uses, unless such uses represent
+the only significant mode of use of the product.
+
+  "Installation Information" for a User Product means any methods,
+procedures, authorization keys, or other information required to install
+and execute modified versions of a covered work in that User Product from
+a modified version of its Corresponding Source.  The information must
+suffice to ensure that the continued functioning of the modified object
+code is in no case prevented or interfered with solely because
+modification has been made.
+
+  If you convey an object code work under this section in, or with, or
+specifically for use in, a User Product, and the conveying occurs as
+part of a transaction in which the right of possession and use of the
+User Product is transferred to the recipient in perpetuity or for a
+fixed term (regardless of how the transaction is characterized), the
+Corresponding Source conveyed under this section must be accompanied
+by the Installation Information.  But this requirement does not apply
+if neither you nor any third party retains the ability to install
+modified object code on the User Product (for example, the work has
+been installed in ROM).
+
+  The requirement to provide Installation Information does not include a
+requirement to continue to provide support service, warranty, or updates
+for a work that has been modified or installed by the recipient, or for
+the User Product in which it has been modified or installed.  Access to a
+network may be denied when the modification itself materially and
+adversely affects the operation of the network or violates the rules and
+protocols for communication across the network.
+
+  Corresponding Source conveyed, and Installation Information provided,
+in accord with this section must be in a format that is publicly
+documented (and with an implementation available to the public in
+source code form), and must require no special password or key for
+unpacking, reading or copying.
+
+  7. Additional Terms.
+
+  "Additional permissions" are terms that supplement the terms of this
+License by making exceptions from one or more of its conditions.
+Additional permissions that are applicable to the entire Program shall
+be treated as though they were included in this License, to the extent
+that they are valid under applicable law.  If additional permissions
+apply only to part of the Program, that part may be used separately
+under those permissions, but the entire Program remains governed by
+this License without regard to the additional permissions.
+
+  When you convey a copy of a covered work, you may at your option
+remove any additional permissions from that copy, or from any part of
+it.  (Additional permissions may be written to require their own
+removal in certain cases when you modify the work.)  You may place
+additional permissions on material, added by you to a covered work,
+for which you have or can give appropriate copyright permission.
+
+  Notwithstanding any other provision of this License, for material you
+add to a covered work, you may (if authorized by the copyright holders of
+that material) supplement the terms of this License with terms:
+
+    a) Disclaiming warranty or limiting liability differently from the
+    terms of sections 15 and 16 of this License; or
+
+    b) Requiring preservation of specified reasonable legal notices or
+    author attributions in that material or in the Appropriate Legal
+    Notices displayed by works containing it; or
+
+    c) Prohibiting misrepresentation of the origin of that material, or
+    requiring that modified versions of such material be marked in
+    reasonable ways as different from the original version; or
+
+    d) Limiting the use for publicity purposes of names of licensors or
+    authors of the material; or
+
+    e) Declining to grant rights under trademark law for use of some
+    trade names, trademarks, or service marks; or
+
+    f) Requiring indemnification of licensors and authors of that
+    material by anyone who conveys the material (or modified versions of
+    it) with contractual assumptions of liability to the recipient, for
+    any liability that these contractual assumptions directly impose on
+    those licensors and authors.
+
+  All other non-permissive additional terms are considered "further
+restrictions" within the meaning of section 10.  If the Program as you
+received it, or any part of it, contains a notice stating that it is
+governed by this License along with a term that is a further
+restriction, you may remove that term.  If a license document contains
+a further restriction but permits relicensing or conveying under this
+License, you may add to a covered work material governed by the terms
+of that license document, provided that the further restriction does
+not survive such relicensing or conveying.
+
+  If you add terms to a covered work in accord with this section, you
+must place, in the relevant source files, a statement of the
+additional terms that apply to those files, or a notice indicating
+where to find the applicable terms.
+
+  Additional terms, permissive or non-permissive, may be stated in the
+form of a separately written license, or stated as exceptions;
+the above requirements apply either way.
+
+  8. Termination.
+
+  You may not propagate or modify a covered work except as expressly
+provided under this License.  Any attempt otherwise to propagate or
+modify it is void, and will automatically terminate your rights under
+this License (including any patent licenses granted under the third
+paragraph of section 11).
+
+  However, if you cease all violation of this License, then your
+license from a particular copyright holder is reinstated (a)
+provisionally, unless and until the copyright holder explicitly and
+finally terminates your license, and (b) permanently, if the copyright
+holder fails to notify you of the violation by some reasonable means
+prior to 60 days after the cessation.
+
+  Moreover, your license from a particular copyright holder is
+reinstated permanently if the copyright holder notifies you of the
+violation by some reasonable means, this is the first time you have
+received notice of violation of this License (for any work) from that
+copyright holder, and you cure the violation prior to 30 days after
+your receipt of the notice.
+
+  Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License.  If your rights have been terminated and not permanently
+reinstated, you do not qualify to receive new licenses for the same
+material under section 10.
+
+  9. Acceptance Not Required for Having Copies.
+
+  You are not required to accept this License in order to receive or
+run a copy of the Program.  Ancillary propagation of a covered work
+occurring solely as a consequence of using peer-to-peer transmission
+to receive a copy likewise does not require acceptance.  However,
+nothing other than this License grants you permission to propagate or
+modify any covered work.  These actions infringe copyright if you do
+not accept this License.  Therefore, by modifying or propagating a
+covered work, you indicate your acceptance of this License to do so.
+
+  10. Automatic Licensing of Downstream Recipients.
+
+  Each time you convey a covered work, the recipient automatically
+receives a license from the original licensors, to run, modify and
+propagate that work, subject to this License.  You are not responsible
+for enforcing compliance by third parties with this License.
+
+  An "entity transaction" is a transaction transferring control of an
+organization, or substantially all assets of one, or subdividing an
+organization, or merging organizations.  If propagation of a covered
+work results from an entity transaction, each party to that
+transaction who receives a copy of the work also receives whatever
+licenses to the work the party's predecessor in interest had or could
+give under the previous paragraph, plus a right to possession of the
+Corresponding Source of the work from the predecessor in interest, if
+the predecessor has it or can get it with reasonable efforts.
+
+  You may not impose any further restrictions on the exercise of the
+rights granted or affirmed under this License.  For example, you may
+not impose a license fee, royalty, or other charge for exercise of
+rights granted under this License, and you may not initiate litigation
+(including a cross-claim or counterclaim in a lawsuit) alleging that
+any patent claim is infringed by making, using, selling, offering for
+sale, or importing the Program or any portion of it.
+
+  11. Patents.
+
+  A "contributor" is a copyright holder who authorizes use under this
+License of the Program or a work on which the Program is based.  The
+work thus licensed is called the contributor's "contributor version".
+
+  A contributor's "essential patent claims" are all patent claims
+owned or controlled by the contributor, whether already acquired or
+hereafter acquired, that would be infringed by some manner, permitted
+by this License, of making, using, or selling its contributor version,
+but do not include claims that would be infringed only as a
+consequence of further modification of the contributor version.  For
+purposes of this definition, "control" includes the right to grant
+patent sublicenses in a manner consistent with the requirements of
+this License.
+
+  Each contributor grants you a non-exclusive, worldwide, royalty-free
+patent license under the contributor's essential patent claims, to
+make, use, sell, offer for sale, import and otherwise run, modify and
+propagate the contents of its contributor version.
+
+  In the following three paragraphs, a "patent license" is any express
+agreement or commitment, however denominated, not to enforce a patent
+(such as an express permission to practice a patent or covenant not to
+sue for patent infringement).  To "grant" such a patent license to a
+party means to make such an agreement or commitment not to enforce a
+patent against the party.
+
+  If you convey a covered work, knowingly relying on a patent license,
+and the Corresponding Source of the work is not available for anyone
+to copy, free of charge and under the terms of this License, through a
+publicly available network server or other readily accessible means,
+then you must either (1) cause the Corresponding Source to be so
+available, or (2) arrange to deprive yourself of the benefit of the
+patent license for this particular work, or (3) arrange, in a manner
+consistent with the requirements of this License, to extend the patent
+license to downstream recipients.  "Knowingly relying" means you have
+actual knowledge that, but for the patent license, your conveying the
+covered work in a country, or your recipient's use of the covered work
+in a country, would infringe one or more identifiable patents in that
+country that you have reason to believe are valid.
+
+  If, pursuant to or in connection with a single transaction or
+arrangement, you convey, or propagate by procuring conveyance of, a
+covered work, and grant a patent license to some of the parties
+receiving the covered work authorizing them to use, propagate, modify
+or convey a specific copy of the covered work, then the patent license
+you grant is automatically extended to all recipients of the covered
+work and works based on it.
+
+  A patent license is "discriminatory" if it does not include within
+the scope of its coverage, prohibits the exercise of, or is
+conditioned on the non-exercise of one or more of the rights that are
+specifically granted under this License.  You may not convey a covered
+work if you are a party to an arrangement with a third party that is
+in the business of distributing software, under which you make payment
+to the third party based on the extent of your activity of conveying
+the work, and under which the third party grants, to any of the
+parties who would receive the covered work from you, a discriminatory
+patent license (a) in connection with copies of the covered work
+conveyed by you (or copies made from those copies), or (b) primarily
+for and in connection with specific products or compilations that
+contain the covered work, unless you entered into that arrangement,
+or that patent license was granted, prior to 28 March 2007.
+
+  Nothing in this License shall be construed as excluding or limiting
+any implied license or other defenses to infringement that may
+otherwise be available to you under applicable patent law.
+
+  12. No Surrender of Others' Freedom.
+
+  If conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot convey a
+covered work so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you may
+not convey it at all.  For example, if you agree to terms that obligate you
+to collect a royalty for further conveying from those to whom you convey
+the Program, the only way you could satisfy both those terms and this
+License would be to refrain entirely from conveying the Program.
+
+  13. Use with the GNU Affero General Public License.
+
+  Notwithstanding any other provision of this License, you have
+permission to link or combine any covered work with a work licensed
+under version 3 of the GNU Affero General Public License into a single
+combined work, and to convey the resulting work.  The terms of this
+License will continue to apply to the part which is the covered work,
+but the special requirements of the GNU Affero General Public License,
+section 13, concerning interaction through a network will apply to the
+combination as such.
+
+  14. Revised Versions of this License.
+
+  The Free Software Foundation may publish revised and/or new versions of
+the GNU General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+  Each version is given a distinguishing version number.  If the
+Program specifies that a certain numbered version of the GNU General
+Public License "or any later version" applies to it, you have the
+option of following the terms and conditions either of that numbered
+version or of any later version published by the Free Software
+Foundation.  If the Program does not specify a version number of the
+GNU General Public License, you may choose any version ever published
+by the Free Software Foundation.
+
+  If the Program specifies that a proxy can decide which future
+versions of the GNU General Public License can be used, that proxy's
+public statement of acceptance of a version permanently authorizes you
+to choose that version for the Program.
+
+  Later license versions may give you additional or different
+permissions.  However, no additional obligations are imposed on any
+author or copyright holder as a result of your choosing to follow a
+later version.
+
+  15. Disclaimer of Warranty.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  16. Limitation of Liability.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+  17. Interpretation of Sections 15 and 16.
+
+  If the disclaimer of warranty and limitation of liability provided
+above cannot be given local legal effect according to their terms,
+reviewing courts shall apply local law that most closely approximates
+an absolute waiver of all civil liability in connection with the
+Program, unless a warranty or assumption of liability accompanies a
+copy of the Program in return for a fee.
+
+                     END OF TERMS AND CONDITIONS
+
+            How to Apply These Terms to Your New Programs
+
+  If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these terms.
+
+  To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+state the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+Also add information on how to contact you by electronic and paper mail.
+
+  If the program does terminal interaction, make it output a short
+notice like this when it starts in an interactive mode:
+
+    <program>  Copyright (C) <year>  <name of author>
+    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, your program's commands
+might be different; for a GUI interface, you would use an "about box".
+
+  You should also get your employer (if you work as a programmer) or school,
+if any, to sign a "copyright disclaimer" for the program, if necessary.
+For more information on this, and how to apply and follow the GNU GPL, see
+<https://www.gnu.org/licenses/>.
+
+  The GNU General Public License does not permit incorporating your program
+into proprietary programs.  If your program is a subroutine library, you
+may consider it more useful to permit linking proprietary applications with
+the library.  If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.  But first, please read
+<https://www.gnu.org/licenses/why-not-lgpl.html>.
